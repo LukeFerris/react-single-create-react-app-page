@@ -1,14 +1,13 @@
-// App.js
 import React from "react";
 
-// a
-import text from "./text.json";
+// the hardcoded expectation is that the text json file will be here.
+import text from "assets/text/text.json";
 
 export default function App() {
   return (
     <div>
       Example text content:
-      <div>{text.welcomeMessageOneParagraph}</div>
+      <div>{text.exmapleWelcomeMessageOneParagraph}</div>
     </div>
   );
 }
